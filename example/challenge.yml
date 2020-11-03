@@ -1,0 +1,24 @@
+name: Example Problem
+category: Miscallaneous
+value: 100
+flag: flag{this_is_a_flag}
+description: |-
+  Look at this example problem.
+  This is the problem description.
+  You will be able to add **markdown**!
+
+  Here is a separate paragraph.
+  Wow!
+hints:
+  - Have you tried turning it off and on again?
+  - Have you tried forcing an unexpected reboot?
+files:
+  # File name relative to problem directory
+  - ./file.txt
+  # Can also rename file for participants
+  - name: ./some_long_ugly_or_secret_file_name.txt
+    display: file2.txt
+authors:
+  - John Doe
+  - Jane Smith
+visible: false
