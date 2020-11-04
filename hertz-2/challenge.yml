@@ -1,0 +1,14 @@
+name: hertz 2
+category: Cryptography
+value: 150
+flag: picoCTF{v1gn3r3_c1ph3rs_ar3n7_bad_901e13a1}
+description: |-
+  This flag has been encrypted with some kind of cipher, can you decrypt it? Connect with `nc 2018shell2.picoctf.com 18990`
+
+hints:
+  - Look at the ciphertext, specifically one-letter words; does this look like a simple substitution cipher or something more complicated?
+  - Think back to our vigenere attack example!
+files:
+authors:
+  - picoCTF 2018
+visible: false
