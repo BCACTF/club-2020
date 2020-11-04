@@ -1,9 +1,9 @@
-name: hertz 2
+name: Blaise's Cipher
 category: Cryptography
 value: 150
 flag: picoCTF{v1gn3r3_c1ph3rs_ar3n7_bad_901e13a1}
 description: |-
-  This flag has been encrypted with some kind of cipher, can you decrypt it? Connect with `nc 2018shell2.picoctf.com 18990`
+  My buddy Blaise told me he learned about this cool cipher invented by a guy also named Blaise! Can you figure out what it says? Connect with `nc 2018shell2.picoctf.com 26039`
 
 hints:
   - Look at the ciphertext, specifically one-letter words; does this look like a simple substitution cipher or something more complicated?
