@@ -8,7 +8,6 @@ description: |-
 hints:
   - Look at the ciphertext, specifically one-letter words; does this look like a simple substitution cipher or something more complicated?
   - Think back to our vigenere attack example!
-files:
 authors:
   - picoCTF 2018
-visible: false
+visible: true
