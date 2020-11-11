@@ -26,8 +26,6 @@ RUN useradd --create-home --shell /bin/bash ctf
 RUN echo 'ctf:ctfclub-53726' | chpasswd
 RUN passwd ctf --mindays 9999
 
-COPY secret/run.sh /bin/
-RUN chmod +x /bin/run.sh
 COPY secret/some-program-that-takes-arguments /bin/
 RUN chmod +x /bin/some-program-that-takes-arguments
 
@@ -45,4 +43,4 @@ RUN chmod -w -R .
 RUN chmod -x /usr/bin/ssh*
 
 EXPOSE 22
-CMD ["/bin/run.sh"]
+CMD ["/usr/sbin/sshd", "-D", "-e"]
