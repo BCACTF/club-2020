@@ -8,6 +8,6 @@ description: |-
   Solve Linux 1 to get a challenge description!
 hints:
   - You want to walk on the right $PATH
-  - \`which\` program are you trying to run, anyways?
+  - \`which -a\` program are you trying to run, anyways?
 authors:
   - Edward Feng

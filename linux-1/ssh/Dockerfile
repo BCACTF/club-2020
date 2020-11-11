@@ -35,7 +35,7 @@ COPY --from=build /tmp/build/yes /usr/bin/ctf
 WORKDIR /home/ctf
 
 COPY ./ ./
-RUN rm -r secret
+RUN rm -r secret Dockerfile
 RUN touch .hushlogin
 RUN chown -R ctf:ctf .
 RUN chmod -w -R .

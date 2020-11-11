@@ -10,6 +10,6 @@ description: |-
 
   Flag format: `bcactf{}`.
 hints:
-  - Files would probably be a good place to start.
+  - Looking at files would be a good place to start.
 authors:
   - Edward Feng
