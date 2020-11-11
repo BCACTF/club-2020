@@ -29,7 +29,7 @@ RUN passwd ctf --mindays 9999
 COPY secret/run.sh /bin/
 RUN chmod +x /bin/run.sh
 COPY secret/some-program-that-takes-arguments /bin/
-RUN chmod /bin/some-program-that-takes-arguments
+RUN chmod +x /bin/some-program-that-takes-arguments
 
 COPY --from=build /tmp/build/no /usr/local/bin/ctf
 COPY --from=build /tmp/build/yes /usr/bin/ctf
