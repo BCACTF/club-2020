@@ -6,6 +6,8 @@ description: |-
   Same server, different flag.
 
   Solve Linux 1 to get a challenge description!
+  
+  No python knowledge is required for this problem.
 hints:
   - Wait, are you allowed to see programs that are running?
   - The text is cut off? What, are you expecting me to solve this for you? Look it up yourself!
