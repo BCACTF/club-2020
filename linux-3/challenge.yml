@@ -1,0 +1,13 @@
+name: Linux 3
+category: Linux
+value: 150
+flag: bcactf{3-pr0c3s5e5_c4n_l3aK_1nf0rMa7i0N}
+description: |-
+  Same server, different flag.
+
+  Solve Linux 2 to get a challenge description!
+hints:
+  - Wait, can you even view someone else's processes?
+  - Hmmm... could you even leak arguments?
+authors:
+  - Edward Feng

@@ -1,0 +1,5 @@
+Alright, you've proven your worth.
+Here's the first flag.
+bcactf{1-t0t4llY_h1dd3n_5uP3r_s3cUr3}
+
+Now, try running the `ctf` program.
