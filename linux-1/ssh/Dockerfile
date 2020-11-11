@@ -32,7 +32,7 @@ COPY --from=build /tmp/build/yes /usr/bin/ctf
 COPY secret/some-program-that-takes-arguments /bin/
 RUN chmod +x /bin/some-program-that-takes-arguments
 RUN useradd john-smith
-RUN echo 'john-smith:password' | chpasswd
+RUN echo 'john-smith:generic-passwd-92040' | chpasswd
 
 WORKDIR /home/ctf
 
