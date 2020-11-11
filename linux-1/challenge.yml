@@ -6,7 +6,7 @@ description: |-
   Welcome to CTF Club's Linux Scavenger Hunt!
   We'll start with something easy.
 
-  Use `ssh ctf@club.bcactf.com -p 33645` with password `ctfclub-53726`.
+  Use `ssh ctf@96.126.107.246 -p 33645` with password `ctfclub-53726`.
 
   Flag format: `bcactf{}`.
 hints:
