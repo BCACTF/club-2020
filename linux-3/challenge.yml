@@ -1,13 +1,13 @@
 name: Linux 3
 category: Linux
-value: 150
-flag: bcactf{3-pr0c3s5e5_c4n_l3aK_1nf0rMa7i0N}
+value: 200
+flag: bcactf{3-ch005inG_7h3_c0rr3c7_b1n4ry}
 description: |-
   Same server, different flag.
 
   Solve Linux 2 to get a challenge description!
 hints:
-  - Wait, are you even allowed what programs are running?
-  - The text is cut off? Wait, are you expecting me to solve this for you? Look it up yourself!
+  - You want to walk on the right $PATH
+  - \`whereis\` the program you're trying to run, anyways?
 authors:
   - Edward Feng

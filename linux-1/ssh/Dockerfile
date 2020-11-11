@@ -26,11 +26,13 @@ RUN useradd --create-home --shell /bin/bash ctf
 RUN echo 'ctf:ctfclub-53726' | chpasswd
 RUN passwd ctf --mindays 9999
 
-COPY secret/some-program-that-takes-arguments /bin/
-RUN chmod +x /bin/some-program-that-takes-arguments
-
 COPY --from=build /tmp/build/no /usr/local/bin/ctf
 COPY --from=build /tmp/build/yes /usr/bin/ctf
+
+COPY secret/some-program-that-takes-arguments /bin/
+RUN chmod +x /bin/some-program-that-takes-arguments
+RUN useradd john-smith
+RUN echo 'john-smith:password' | chpasswd
 
 WORKDIR /home/ctf
 
