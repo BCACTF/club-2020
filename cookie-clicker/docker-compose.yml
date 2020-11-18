@@ -5,7 +5,7 @@ services:
   proxy:
     image: nginx
     ports:
-      - 20006:443
+      - 20006:80
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
       - /ssl:/etc/ssl
