@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />  
+        <style>
+            /* bcactf{t3ch_supp0rt_scanner_1234hds} */
+
+            body {
+                background-color: blue;
+                color: cyan;
+                font-family: 'Comic Sans MS';
+                text-align: center;
+                text-shadow: 2px 2px 3px red;
+            }
+
+            p {
+                width: 100%;
+            }
+
+            .justcallus {
+                background-color: cyan;
+                color: yellow;
+            }
+        </style>
+        <script>
+            window.addEventListener("load", e => {
+                alert("Contact tech support now!");
+            });
+            window.addEventListener("beforeunload", e => {
+                e.preventDefault();
+                e.returnValue = "How dare you try to close this tab";
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Contact tech support NOW!</h1>
+        <p>Your computer is slow. idk what to put here i'm not a tech support scanner.</p>
+        <p class="justcallus">call us now: <strong>+1 (123)-456-7890</strong></p>
+    </body>
+</html>
