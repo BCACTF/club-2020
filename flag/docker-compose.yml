@@ -3,7 +3,4 @@ services:
   web:
     build: .
     ports:
-      - 20005:443
-    volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
-      - /ssl:/etc/ssl
+      - 20005:5000

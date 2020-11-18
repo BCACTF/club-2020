@@ -1,3 +1,7 @@
-FROM nginx:latest
-COPY index.html /var/www/html
-COPY notrev.js /var/www/html
+FROM node:14
+WORKDIR /usr/src/app
+COPY index.html /usr/src/app
+COPY notrev.js /usr/src/app
+RUN npm install serve
+EXPOSE 5000
+CMD [ "./node_modules/.bin/serve" ]
