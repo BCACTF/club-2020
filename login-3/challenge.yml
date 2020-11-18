@@ -1,0 +1,20 @@
+name: Login 3
+category: Webex
+value: 200
+flag: bcactf{c00k135_1n_th3_3nt3rpr1s3_HJ67tfijk}
+description: |-
+  We have improved our Very™ Secure™ ServerSideLogin™ technology to be Enterprise® ready and certified for SOS-404™! That's why We™ call it the Very™ Enterprise® Login™ Page™, already Used™ by Determined™ Enterprise®s such as Generic™ Cookie™ Company™! With™ Very™ Enterprise® Login™ Page™, the Flag™ is only accessible by Admins™!
+
+  > Very™ Enterprise® helped our IT team pass our SOS-404™ audit with flying colors!
+  > 
+  > *- John Pesche, CISO, Parts Limited®*
+
+  Our™ Very™ Enterprise® Login™ Page™ is so Secure™ that We™ have even provided a Premium™ Guest™ Login™ for you! The Username™ is `guest`, and the Password™ is also `guest`. As you can See™, this is Very™ Enterprise® Secure™!
+
+  From CS Camp CTF 2020.
+hints:
+  - Would you care to have some chocolate chip authentication cookies?
+authors:
+  - anli
+  - CS Camp CTF 2020
+visible: true

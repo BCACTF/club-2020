@@ -1,0 +1,11 @@
+name: Flag
+category: Webex
+value: 150
+flag: bcactf{cascading_style_sheets_sfdliu8473ywudhsjnkdsfjnv}
+description: |-
+  The flag! It was there!
+hints:
+  - What does that `id` mean?
+authors:
+  - anli
+visible: true

@@ -9,3 +9,7 @@ description: |-
 hints:
   - Those **cookies** seem delicious.
   - Try clicking around in the Web Inspector.
+authors:
+  - anli
+  - BCACTF 2019
+visible: true
