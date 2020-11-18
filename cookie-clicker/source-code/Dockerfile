@@ -5,11 +5,10 @@ COPY package.json ./
 COPY package-lock.json ./
 RUN npm install
 
-COPY index.hbs ./
 COPY templates ./
 COPY index.js ./
 COPY static ./
-COPY config.json
+COPY config.json ./
 
 EXPOSE 1337
 

@@ -1,0 +1,11 @@
+name: Cookie Clicker
+category: Webex
+value: 200
+flag: bcaCTF{c00k13s_c71ck3d_34a2344d}
+description: |-
+  Can you try and buy a flag?
+
+  From BCACTF 2019
+hints:
+  - Those **cookies** seem delicious.
+  - Try clicking around in the Web Inspector.
