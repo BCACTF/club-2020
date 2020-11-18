@@ -5,7 +5,7 @@ flag: bcactf{cascading_style_sheets_sfdliu8473ywudhsjnkdsfjnv}
 description: |-
   The flag! It was there!
 
-  [https://club.bcactf.com:20005](https://club.bcactf.com:20005)
+  [http://club.bcactf.com:20005](http://club.bcactf.com:20005)
 hints:
   - What does that `id` mean?
 authors:
