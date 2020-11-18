@@ -1,9 +1,11 @@
 name: Tech Support
 category: Webex
-value: 50
+value: 0
 flag: bcactf{t3ch_supp0rt_scanner_1234hds}
 description: |-
   Call us now! We will **inspect** your computer for $99.99!
+
+  [https://club.bcactf.com:20001](https://club.bcactf.com:20001)
 authors:
   - anli
 visible: true

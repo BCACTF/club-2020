@@ -4,6 +4,8 @@ value: 100
 flag: bcactf{g0_ask_3rev_h0w_2_d0_th15_hriuhriohufod}
 description: |-
   Erev would not like this problem.
+
+  [https://club.bcactf.com:20002](https://club.bcactf.com:20002)
 hints:
   - What's that JavaScript code doing?
 authors:

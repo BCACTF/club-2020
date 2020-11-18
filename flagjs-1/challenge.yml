@@ -6,6 +6,8 @@ description: |-
   Oh wow, I found a nice JavaScript library! Can you try it out and get the CTF flag?
 
   From CS Camp CTF 2020.
+
+  [https://club.bcactf.com:20004](https://club.bcactf.com:20004)
 hints:
   - How can you run JavaScript code in the web inspector?
 authors:
