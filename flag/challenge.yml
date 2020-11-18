@@ -8,6 +8,7 @@ description: |-
   [http://club.bcactf.com:20005](http://club.bcactf.com:20005)
 hints:
   - What does that `id` mean?
+  - What's this CSS doing here?
 authors:
   - anli
 visible: true
