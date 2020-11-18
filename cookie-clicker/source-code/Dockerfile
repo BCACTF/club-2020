@@ -2,12 +2,14 @@ FROM node:14
 WORKDIR /usr/src/app
 
 COPY package.json ./
-COPY yarn.lock ./
-RUN yarn install
+COPY package-lock.json ./
+RUN npm install
 
 COPY index.hbs ./
-COPY flag.hbs ./
+COPY templates ./
 COPY index.js ./
+COPY static ./
+COPY config.json
 
 EXPOSE 1337
 
