@@ -5,9 +5,9 @@ COPY package.json ./
 COPY package-lock.json ./
 RUN npm install
 
-COPY templates ./
+COPY templates ./templates
 COPY index.js ./
-COPY static ./
+COPY static ./static
 COPY config.json ./
 
 EXPOSE 1337
