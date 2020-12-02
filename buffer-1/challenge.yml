@@ -9,7 +9,9 @@ description: |-
 
   `nc 96.126.107.246 13744`
 hints:
-  - Hint goes here
+  - "First hint: you can always try running it locally."
+  - How <del>exactly</del> [ex*ASCII*](https://en.wikipedia.org/wiki/ASCII) are characters stored, anyways?
+  - What is "endianness"? Is that like, the Ender Dragon?
 files:
   - name: ./pwn/src.c
     display: buffer1.c
