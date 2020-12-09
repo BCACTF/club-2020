@@ -1,0 +1,16 @@
+name: Passwords 4.0
+category: Reversing
+value: 100
+flag: camp{its-l1ke-0r-bu7-EXTREME-4jx3}
+description: |-
+  Apparently bit shifting isn't the only binary operation I can use to make things look weird.
+  XORs sound cool...
+
+  *The flag format is `camp{...}`.*
+hints:
+  - What is XOR?
+  - How do you XOR in Java?
+files:
+  - ./Passwords40.java
+authors:
+  - Erez Israeli Miller

@@ -1,0 +1,12 @@
+name: "Passwords: Class Problems"
+category: Reversing
+value: 0
+flag: aaaagfjhfdgjkfdsfd
+description: |-
+  `Passwords` problems from CS Camp CTF.
+  We'll be using these in the Intro to Rev lecture.
+  Download and follow along!
+files:
+  - ./class_problems.zip
+authors:
+  - Erez Israeli Miller
