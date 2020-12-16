@@ -9,6 +9,8 @@ files:
   - ./output.png
   - ./mystery.py
 hints:
-  - 
+  - What's the difference between the two images? Try looking at the individual pixels.
+  - What does `mystery.py` do to each individual pixel?
+  - Can you use your reversing skills to write a decoder?
 authors:
   - anli
