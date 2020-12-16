@@ -1,0 +1,14 @@
+name: Insigificant 1
+category: Forensics
+value: 150
+flag: bcactf{my_cat_15_h1d1ng_s0m3th1ng_1ns1gn1f1can7}
+description: |-
+  There's... something about my cat. Something rather **insignificant**, I'd say.
+files:
+  - ./input.png
+  - ./output.png
+  - ./mystery.py
+hints:
+  - 
+authors:
+  - anli
