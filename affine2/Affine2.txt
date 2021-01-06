@@ -5,6 +5,7 @@ Only half the story??? After some fervent searching I found a hidden safe under 
 With my expert lockpicking skills, I extracted the second half of the secret `szlzou{xv-uyg-e-2yg-mz-fu-e-mek}`, but...
 Well, he was already dead, so I couldn't get the key.
 How can I decode this without knowing `o`?
+(The file is the same as before, so you don't need to re-download it.)
 (I **strongly discourage** using an online decoder for this, though they do exist.
 Reason through the modular arithmetic yourself, use hints if you need, and try to write code to discover the solution!)
 # Flag (camp{...} format)
@@ -25,3 +26,28 @@ Upload Affine1.java
 Erez Israeli Miller
 # Intended solvepath
 Reverse the cipher, decode `o` using flag format
+
+name: A finer investigation
+category: Cryptography
+value: 250
+flag: bcactf{yu-fnd-z-2nd-pc-of-z-pzl}
+description: |-
+  Only half the story??? After some fervent searching I found a hidden safe under a carpet.
+  With my expert lockpicking skills, I extracted the second half of the secret `szlzou{xv-uyg-e-2yg-mz-fu-e-mek}`, but...
+  Well, he was already dead, so I couldn't get the key.
+  How can I decode this without knowing `o`?
+  (The file is the same as before, so you don't need to re-download it.)
+  (I **strongly discourage** using an online decoder for this, though they do exist.
+  Reason through the modular arithmetic yourself, use hints if you need, and try to write code to discover the solution!)
+hints:
+  - Make sure you solve `A fine investigation` first
+  - The flag format is `bcactf{flag}`
+  - Review the modular arithmetic video if you need to.
+  - This is an **affine cipher**; look it up on wikipedia for some techniques.
+files:
+  # Can also rename file for participants
+  - name: ./Affine1.java
+    display: problem.txt
+authors:
+  - Erez
+visible: true
