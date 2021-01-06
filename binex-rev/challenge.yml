@@ -1,7 +1,7 @@
 name: Binary Rev
 category: Binary Exploitation
 value: 150
-flag: club{r3v_1s_l0v3_r3v_i5_l1f3}
+flag: bcactf{r3v_1s_l0v3_r3v_i5_l1f3}
 description: |-
   To hack binary files, you need to be able to reverse them.
 

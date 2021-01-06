@@ -1,7 +1,7 @@
 from random import randrange
 
-flag = "club{r3v_1s_l0v3_r3v_i5_l1f3}"
-chk = [randrange(1, 128) for i in range(len(flag))]
+flag = "bcactf{r3v_1s_l0v3_r3v_i5_l1f3}"
+chk = [randrange(1, 127) for i in range(len(flag))]
 
 chk_str = ""
 out = ""
