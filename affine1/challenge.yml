@@ -1,0 +1,18 @@
+name: A fine investigation
+category: Cryptography
+value: 150
+flag: bcactf{you-monster...-but-this-is-only-half-the-story}
+description: |-
+  I found an encoded flag under his bed: `mtftio{rzp-lzsbihu...-mpi-icjb-jb-zser-cfeo-ich-bizur}`
+  After hours of torture, he finally told me the key he used to encode it: `o = 5`
+  Can you help me decode his secret?
+hints:
+  - Review the modular arithmetic video if you need to.
+  - This is an **affine cipher**; look it up on wikipedia for some techniques.
+files:
+  # Can also rename file for participants
+  - name: ./Affine1.java
+    display: problem.txt
+authors:
+  - Erez
+visible: true
