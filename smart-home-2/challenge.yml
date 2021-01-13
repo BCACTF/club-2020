@@ -7,6 +7,8 @@ description: |-
 
   To make things easier, here's a bearer auth token you can use: `verysecuretoken`
 
+  [http://96.126.107.246:20010/feed](http://96.126.107.246:20010/feed)
+
   *This challenge and its intended solvepath are wholly unrelated to any hypothetical incidents that may have hypothetically occurred on any hypothetical server on a hypothetical service providing hypothetical text chats. If you're getting confused by all these hypotheticals, hypothetically seek a hypothetical medical professional.*
 hints:
   - What's a *bearer token*? Is there a header where you can send it in?

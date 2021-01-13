@@ -4,6 +4,8 @@ value: 100
 flag: bcactf{verysecurelightswitch_sdf4iiesjjvkxaa12}
 description: |-
   Can you turn off the lights?
+
+  [http://96.126.107.246:20009/off](http://96.126.107.246:20009/off)
   
   *This challenge and its intended solvepath are wholly unrelated to any hypothetical incidents that may have hypothetically occurred on any hypothetical server on a hypothetical service providing hypothetical text chats.*
 hints:
