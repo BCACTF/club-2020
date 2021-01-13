@@ -5,7 +5,7 @@ COPY package.json ./
 RUN npm install
 
 COPY index.js ./
-COPY static ./
+COPY static ./static
 
 EXPOSE 1337
 
