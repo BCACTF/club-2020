@@ -1,0 +1,14 @@
+name: Safe RSA 1
+category: Cryptography
+value: 300
+flag: picoCTF{p_&_q_n0_r_$_t!!_6629910}
+description: |-
+  The more primes, the safer... right.?.? Connect with `nc 2018shell1.picoctf.com 11423`
+  (Let us know in the server if you need help with connecting.)
+hints:
+ - "My favorite integer factorizer: https://www.alpertron.com.ar/ECM.HTM"
+ - How would you find d if there are more than 2 prime factors of n?
+ - The integer factorizer in the first hint gives you totient for free!
+authors:
+  - picoCTF 2018
+visible: false

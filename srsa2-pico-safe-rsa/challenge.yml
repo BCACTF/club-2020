@@ -1,0 +1,15 @@
+name: Safe RSA 2
+category: Cryptography
+value: 300
+flag: picoCTF{e_w4y_t00_sm411_81b6559f}
+description: |-
+  Now that you know about RSA can you help us decrypt this ciphertext? We don't have the decryption key but something about those values looks funky...
+
+hints:
+ - That `e` value looks kinda small...
+ - These are some really big numbers... Make sure you're using functions that don't lose any precision!
+files:
+ - ./ciphertext.txt
+authors:
+  - picoCTF 2018
+visible: false
