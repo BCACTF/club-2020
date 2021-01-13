@@ -1,7 +1,7 @@
 version: "2.0"
 services:
   web:
-    build: ./
+    build: ./server
     environment:
       JSVS_FLAG: "bcactf{h00kb1n_15_pr3tty_u53ful}"
     ports:
