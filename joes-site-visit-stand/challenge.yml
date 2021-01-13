@@ -1,0 +1,14 @@
+name: Joe's Site Visit Stand
+category: Webex
+value: 100
+flag: camp{h00kb1n_15_pr3tty_u53ful}
+description: |-
+  Boost *your* arbitrary web traffic with Joe's Site Visit Stand!
+
+  [http://96.126.107.246:20008](http://96.126.107.246:20008)
+hints:
+  - It looks you control where he visits! Where could you point him to?
+  - What services let you inspect requests made to them, live? What did we use in the webex session?
+  - Do Hooks and Bins ring a bell?
+authors: anli
+visible: false

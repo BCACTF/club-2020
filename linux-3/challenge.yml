@@ -1,0 +1,13 @@
+name: Linux 3
+category: Linux
+value: 200
+flag: bcactf{3-ch005inG_7h3_c0rr3c7_b1n4ry}
+description: |-
+  Same server, different flag.
+
+  Solve Linux 2 to get a challenge description!
+hints:
+  - You want to walk on the right $PATH
+  - \`whereis\` the program you're trying to run, anyways?
+authors:
+  - Edward Feng

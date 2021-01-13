@@ -1,0 +1,10 @@
+name: "Binary Reversing: Class Problems"
+category: Binary Exploitation
+value: 0
+flag: aaaagfjhfdgjkfdsfd
+description: |-
+  Binary reversing class files.
+files:
+  - ./class_problems.zip
+authors:
+  - Edward Feng

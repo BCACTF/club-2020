@@ -10,4 +10,10 @@ An example of such a file is presented in `example/`.
 
 You are encouraged to add problem generation/solve scripts.
 
-Will figure out container management soon.
+## Containers
+
+Put `docker-compose.yml` in the problem folder.
+Any `Dockerfile`s should be placed one directory deeper.
+
+For now, simply hardcode the connection information in `challenge.yml`.
+I am too tired to figure out how I want to automate things later.

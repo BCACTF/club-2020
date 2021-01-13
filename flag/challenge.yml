@@ -1,0 +1,14 @@
+name: Flag
+category: Webex
+value: 150
+flag: bcactf{cascading_style_sheets_sfdliu8473ywudhsjnkdsfjnv}
+description: |-
+  The flag! It was there!
+
+  [http://96.126.107.246:20005](http://96.126.107.246:20005)
+hints:
+  - What does that `id` mean?
+  - What's this CSS doing here?
+authors:
+  - anli
+visible: true

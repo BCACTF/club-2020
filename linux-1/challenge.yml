@@ -1,0 +1,15 @@
+name: Linux 1
+category: Linux
+value: 100
+flag: bcactf{1-t0t4llY_h1dd3n_5uP3r_s3cUr3}
+description: |-
+  Welcome to CTF Club's Linux Scavenger Hunt!
+  We'll start with something easy.
+
+  Use `ssh ctf@96.126.107.246 -p 33645` with password `ctfclub-53726`.
+
+  Flag format: `bcactf{}`.
+hints:
+  - Looking at files would be a good place to start.
+authors:
+  - Edward Feng

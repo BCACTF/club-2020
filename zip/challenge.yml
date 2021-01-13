@@ -1,0 +1,13 @@
+name: flag.zip
+category: Forensics
+value: 250
+flag: bcactf{an_interesting_flag_8513}
+description: |-
+  It's just a ZIP file of the flag! What could *possibly* go wrong?
+files:
+  - ./flag.zip
+hints:
+  - Have you tried looking at the header?
+  - Look at the textual representation of the hexdump. What could be corrupted?
+authors:
+  - anli

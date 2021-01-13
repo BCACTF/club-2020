@@ -1,0 +1,8 @@
+Alright, you've proven your worth.
+Here's the first flag.
+bcactf{1-t0t4llY_h1dd3n_5uP3r_s3cUr3}
+
+Say, could you help me with something?
+I think I saw someone running `some-program-that-takes-arguments`.
+Just check up on how that process is doing, will ya?
+Thanks.

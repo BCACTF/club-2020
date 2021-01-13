@@ -1,0 +1,8 @@
+version: "3.0"
+services:
+  ssh:
+    build: ssh
+    ports:
+      - "33645:22"
+    hostname: "ctf-club-linux"
+    read_only: true

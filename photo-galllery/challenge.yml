@@ -1,0 +1,13 @@
+name: Photo Galllery
+category: Webex
+value: 100
+flag: bcactf{insert_cat_photo_here_oheir72y8yuihsjknczds}
+description: |-
+  One of these images is not like the others.
+
+  [http://96.126.107.246:20003](http://96.126.107.246:20003)
+hints:
+  - Have you tried downloading the images?
+authors:
+  - anli
+visible: true

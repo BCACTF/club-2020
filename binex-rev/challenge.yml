@@ -1,0 +1,16 @@
+name: Binary Rev
+category: Binary Exploitation
+value: 150
+flag: bcactf{r3v_1s_l0v3_r3v_i5_l1f3}
+description: |-
+  To hack binary files, you need to be able to reverse them.
+
+  *If you were not at the Reversing Binaries lecture, you may want to watch the recording.*
+hints:
+  - In Ghidra, you can double-click to jump to a function or to a global variable.
+  - This is a binary file, but this is also rev. Don't tell me you forgot how `^` works!
+files:
+  - name: ./chall
+    display: binrev
+authors:
+  - Edward Feng

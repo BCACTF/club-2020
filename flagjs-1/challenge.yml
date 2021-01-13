@@ -1,0 +1,16 @@
+name: flag.js v1
+category: Webex
+value: 100
+flag: bcactf{g0tta_l0v3_th4t_js_c0n50l3_v678en}
+description: |-
+  Oh wow, I found a nice JavaScript library! Can you try it out and get the CTF flag?
+
+  From CS Camp CTF 2020.
+
+  [http://96.126.107.246:20004](http://96.126.107.246:20004)
+hints:
+  - How can you run JavaScript code in the web inspector?
+authors:
+  - anli
+  - CS Camp CTF 2020
+visible: true

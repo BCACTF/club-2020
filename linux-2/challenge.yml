@@ -1,0 +1,15 @@
+name: Linux 2
+category: Linux
+value: 150
+flag: bcactf{2-pr0c3s5e5_c4n_l3aK_1nf0rMa7i0N}
+description: |-
+  Same server, different flag.
+
+  Solve Linux 1 to get a challenge description!
+  
+  No python knowledge is required for this problem.
+hints:
+  - Wait, are you allowed to see programs that are running?
+  - The text is cut off? What, are you expecting me to solve this for you? Look it up yourself!
+authors:
+  - Edward Feng

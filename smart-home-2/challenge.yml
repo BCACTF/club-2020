@@ -1,0 +1,17 @@
+name: The Smart Home 2
+category: Webex
+value: 100
+flag: bcactf{b3arer_t0kens_yaaaayxd}
+description: |-
+  Was turning my lights off not enough for you? How about accessing my camera?
+
+  To make things easier, here's a bearer auth token you can use: `verysecuretoken`
+
+  [http://96.126.107.246:20010/feed](http://96.126.107.246:20010/feed)
+
+  *This challenge and its intended solvepath are wholly unrelated to any hypothetical incidents that may have hypothetically occurred on any hypothetical server on a hypothetical service providing hypothetical text chats. If you're getting confused by all these hypotheticals, hypothetically seek a hypothetical medical professional.*
+hints:
+  - What's a *bearer token*? Is there a header where you can send it in?
+  - Pay attention to the `Content-Type` header...
+author: anli
+visible: false

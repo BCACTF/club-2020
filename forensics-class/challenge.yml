@@ -1,0 +1,10 @@
+name: "Forensics: Class Problems"
+category: Forensics
+value: 0
+flag: aaaagfjhfdgjkfdsfd
+description: |-
+  Download and follow along!
+files:
+  - ./class_problems.zip
+authors:
+  - anli

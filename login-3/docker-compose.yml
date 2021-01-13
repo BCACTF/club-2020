@@ -1,0 +1,10 @@
+version: "2.0"
+services:
+  web:
+    build: ./server
+    environment:
+      LOGIN3_FLAG: "bcactf{c00k135_1n_th3_3nt3rpr1s3_HJ67tfijk}"
+      LOGIN3_USERNAME: guest
+      LOGIN3_PASSWORD: guest
+    ports:
+      - 20007:1337

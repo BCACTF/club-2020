@@ -1,0 +1,15 @@
+name: The Smart Home 1
+category: Webex
+value: 100
+flag: bcactf{verysecurelightswitch_sdf4iiesjjvkxaa12}
+description: |-
+  Can you turn off the lights?
+
+  [http://96.126.107.246:20009/off](http://96.126.107.246:20009/off)
+  
+  *This challenge and its intended solvepath are wholly unrelated to any hypothetical incidents that may have hypothetically occurred on any hypothetical server on a hypothetical service providing hypothetical text chats.*
+hints:
+  - Which header tells the server which browser you're using to access the site?
+  - If you're stuck after the second step, look at the response headers. What might they tell you?
+author: anli
+visible: false

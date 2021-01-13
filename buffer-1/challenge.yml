@@ -1,0 +1,22 @@
+name: The Overflow Buffet
+category: Binary Exploitation
+value: 100
+flag:
+  file: ./pwn/flag.txt
+description: |-
+  They tell me the shells are out of stock.
+  But I know they're hiding some in the back.
+
+  `nc 96.126.107.246 13744`
+hints:
+  - "First hint: you can always try running it locally."
+  - How <del>exactly</del> [ex*ASCII*](https://en.wikipedia.org/wiki/ASCII) are characters stored, anyways?
+  - What is "endianness"? Is that like, the Ender Dragon?
+files:
+  - name: ./pwn/src.c
+    display: buffer1.c
+  - container: pwn
+    name: /home/ctf/buffer1
+    display: buffer1
+authors:
+  - Edward Feng
