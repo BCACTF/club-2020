@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  web:
+    build: ./
+    environment:
+      SH2_FLAG: "bcactf{b3arer_t0kens_yaaaayxd}"
+    ports:
+      - 20010:1337

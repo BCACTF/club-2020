@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  web:
+    build: ./
+    environment:
+      SH1_FLAG: "bcactf{verysecurelightswitch_sdf4iiesjjvkxaa12}"
+    ports:
+      - 20009:1337

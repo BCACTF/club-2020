@@ -11,8 +11,8 @@ if (!process.env.JSVS_FLAG) {
     console.error("JSVS_FLAG environment variable not set. Flag set to \"" + defaultFlag + "\".");
 }
 
-const windowMs = process.env.JSS_RATELIMIT_WINDOW || 60000;
-const max = process.env.JSS_RATELIMIT_MAX || 10;
+const windowMs = process.env.JSVS_RATELIMIT_WINDOW || 60000;
+const max = process.env.JSVS_RATELIMIT_MAX || 10;
 app.post("/visit", rateLimit({
     windowMs,
     max,
