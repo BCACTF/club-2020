@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Joe's Site Visit Stand!!1</title>
+        <link rel="stylesheet" href="/style.css" />
+        <script>
+            function derotate() {
+                document.body.style.transform = "none";
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Welcome to Joe's Site Visit Stand!</h1>
+        <p><em>Organic site visits, served up from 2021</em></p>
+        <p><a href="javascript:derotate()">De-rotate this page</a></p>
+        <form method="post" action="/visit">
+            <h2>My Premium Site Visits</h2>
+            <p>Is low web traffic getting you down? Joe is offering premium site visits! Simply enter in a website you'd like him to check out, and he will visit it for you! <small>Also the flag will totally not be leaked!</small></p>
+            <div class="input-group">
+                <label for="url">Please enter a URL for Joe to Visit:</label>
+                <input type="url" name="url" id="url" value="https://www.youtube.com/watch?v=y6120QOlsfU" required />
+            </div>
+            <input type="submit" value="Visit My Site!" />
+        </form>
+    </body>
+</html>

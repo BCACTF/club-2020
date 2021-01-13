@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  web:
+    build: ./
+    environment:
+      JSVS_FLAG: "bcactf{h00kb1n_15_pr3tty_u53ful}"
+    ports:
+      - 20008:1337
