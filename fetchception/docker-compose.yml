@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  web:
+    build: ./server
+    ports:
+      - 20011:1337

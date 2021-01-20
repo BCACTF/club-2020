@@ -1,0 +1,16 @@
+name: Fetchception
+category: Webex
+value: 250
+flag: bcactf{cu3_hans_z1mm3r_musik_r143sdfxvc12}
+description: |-
+  *This problem is intended as a continuation of Joe's Heartfelt Message Stand.*
+
+  One `fetch`, two `fetch`, red `fetch`, blue `fetch`...
+
+  [http://96.126.107.246:20012](http://96.126.107.246:20012)
+hints:
+  - How might you get the flag?
+  - How might you send it to yourself?
+  - How might you chain multiple fetch requests?
+authors: anli
+visible: false
