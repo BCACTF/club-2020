@@ -1,14 +1,16 @@
 name: We've sPRuNG a leak!
 category: Reversing
 value: 0
-flag: camp{bl0w-1t-4w4y-yt-link-m2s0nB2VPvs}
+flag:
+  file: ./rev/flag.txt
 description: |-
   To cope with increased infection risks, we've installed HEPA filters in our random number generators! They should keep out any Haphazardly Elucidative Pseudorandom Artifacts that might cause infection, or -- even worse -- allow a virus to guess our random numbers! That would be horrible. If our filter springs a leak, we're all doomed...
+
+  `nc 96.126.107.246 48645`
 hints:
   - I don't randomly capitalize things, because that's annoying. What might sPRuNG mean?
 files:
-  # File name relative to problem directory
-  - ./sprung-1.c
+  - name: ./rev/src.c
+    display: sprung-1.c
 authors:
   - Erez Israeli Miller
-visible: false
