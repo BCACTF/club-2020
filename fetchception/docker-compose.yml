@@ -3,4 +3,4 @@ services:
   web:
     build: ./server
     ports:
-      - 20011:1337
+      - 20012:1337
