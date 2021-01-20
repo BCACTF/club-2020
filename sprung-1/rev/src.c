@@ -6,7 +6,7 @@
 void literallyunbeatable();
 int guessmeharder(int);
 
-int main1() {
+int main() {
     setbuf(stdout, NULL); // Server setup, don't worry about it
     setbuf(stdin,  NULL);
     setbuf(stderr, NULL);
