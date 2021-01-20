@@ -34,13 +34,13 @@ app.post("/calculate", async (req, res) => {
             result = e.message;
         }
         if (typeof result === "function") {
-            result = "<function>";
+            result = "[function]";
         } else if (result === null) {
             result = "null";
         } else if (result === undefined) {
             result = "undefined";
         }
-        const purified = sanitize(result.toString());
+        const purified = sanitize(result.toString(), {ALLOWED_TAGS: []});
         res.send(`<!DOCTYPE html><html>
             <head>
                 <meta charset="utf8">
