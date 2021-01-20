@@ -1,0 +1,15 @@
+name: seed-sPRiNG
+category: Reversing
+value: 350
+flag: picoCTF{pseudo_random_number_generator_not_so_random_66aacad47c332de30eb8d8170d96b772}
+description: |-
+  I finally managed to get that binary from picoCTF into Ghidra, which turned the executable into barely-readable C code. Can you help me solve the problem to find the flag? The flag format is picoCTF{...}
+hints:
+  - The problem is similar to "It's About Time"
+  - Try renaming variables until things start making sense...
+files:
+  # File name relative to problem directory
+  - ./reversed-assembly.c
+authors:
+  - picoCTF, (barely) Erez Israeli Miller
+visible: false

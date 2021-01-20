@@ -1,0 +1,14 @@
+name: It's About Time
+category: Reversing
+value: 0
+flag: camp{EE-E-EEEEEEE-yt-link-S6CtlvmXA-E}
+description: |-
+  After the HEEEEEEPA filter was bypassed, the school fell into disarray. And so did the fabric of space, I think, or something. So what if we use time instead? What's the opposite of random? E.
+hints:
+  - Make sure you solve sPRuNG first!
+files:
+  # File name relative to problem directory
+  - ./sprung-2.c
+authors:
+  - Erez Israeli Miller
+visible: false
