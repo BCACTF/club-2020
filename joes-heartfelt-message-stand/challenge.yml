@@ -1,0 +1,18 @@
+name: Joe's Heartfelt Message Stand
+category: Webex
+value: 150
+flag: bcactf{xss_15_fun_wh0_3ven_is_j0e_fu234sdf}
+description: |-
+  Joe is now accepting heartfelt messages! Rumor has it he's also baking delicious cookies...
+
+  [http://96.126.107.246:20011](http://96.126.107.246:20011)
+hints:
+  - Yesreally Joe is looking at your message in a web browser.
+  - What happens when you put HTML in the box?
+  - What happens when you put JavaScript in the box?
+  - It looks like Joe's keeping his cookies all to himself. Unless, you can get something to send it for you...
+  - Have you tried looking at the `fetch` function?
+  - You may want to use Hookbin again for this one.
+  - Consider smuggling his cookies in the request body.
+authors: anli
+visible: false
