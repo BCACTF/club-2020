@@ -2,5 +2,7 @@ version: "2.0"
 services:
   web:
     build: ./server
+    environment:
+      F_FLAG: bcactf{cu3_hans_z1mm3r_musik_r143sdfxvc12}
     ports:
       - 20012:1337
