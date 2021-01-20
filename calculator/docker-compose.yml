@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  web:
+    build: ./server
+    environment:
+      C_FLAG: bcactf{calculat3d_wur092u49hj}
+    ports:
+      - 20013:1337
