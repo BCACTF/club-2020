@@ -9,6 +9,7 @@ description: |-
   `nc 96.126.107.246 48645`
 hints:
   - I don't randomly capitalize things, because that's annoying. What might sPRuNG mean?
+  - https://stackoverflow.com/a/3958859
 files:
   - name: ./rev/src.c
     display: sprung-1.c
