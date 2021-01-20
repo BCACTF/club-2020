@@ -37,7 +37,7 @@ app.post("/calculate", async (req, res) => {
             result = "<function>";
         } else if (result === null) {
             result = "null";
-        } else if (result === "undefined") {
+        } else if (result === undefined) {
             result = "undefined";
         }
         const purified = sanitize(result.toString());
