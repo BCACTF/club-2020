@@ -6,7 +6,7 @@ description: |-
   This looks like an annoying binary to reverse.
   Can you find the flag another way?
 hints:
-  - \"Source code is not sacred.\" You don't have the source, but you can still run the program.
+  - "\"Source code is not sacred.\" You don't have the source, but you can still run the program."
   - You're asked to put in a flag. Where does the program check your input against something else?
 files:
   - name: ./chall
