@@ -1,0 +1,10 @@
+name: "Functions: Class Problems"
+category: Binary Exploitation
+value: 0
+flag: aaaagfjhfdgjkfdsfd
+description: |-
+  Debugging functions.
+files:
+  - ./func.c
+authors:
+  - Edward Feng
