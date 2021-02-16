@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  web:
+    build: ./server
+    environment:
+      UWU1_FLAG: "bcactf{r3m3mber_towo_sanitize_sql_quwueries_24jhjfssdf}"
+    ports:
+      - 20013:1337

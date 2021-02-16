@@ -1,0 +1,15 @@
+{
+  "name": "sqli-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

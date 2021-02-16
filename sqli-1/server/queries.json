@@ -1,0 +1,10 @@
+[
+    "CREATE TABLE users1 (username VARCHAR(255), password VARCHAR(255))",
+    "INSERT INTO users1 (username, password) VALUES ('24u9qyisghdfjkhbskbxzck', 'y497yridsfzkvbbzxcbvzxnbcvwoeiro')",
+    "CREATE TABLE users2 (username VARCHAR(255), password VARCCHAR(255))",
+    "INSERT INTO users2 (username, password) VALUES ('lfksdfhpoi3u40891234098123', 'aspdfhqhdfuyqweoury91823402834')",
+    "CREATE TABLE users3 (username VARCHAR(255), pin VARCHAR(255))",
+    "INSERT INTO users3 (username, pin) VALUES ('dhfahasdo812408q289sfj', '77556296835')",
+    "CREATE TABLE flag (flag VARCHAR(255))",
+    "INSERT INTO flag (flag) VALUES ('bcactf{h0p3_you_d1dnt_d0_this_manually_shfw487234}')"
+]

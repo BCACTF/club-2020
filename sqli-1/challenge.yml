@@ -1,0 +1,13 @@
+name: uwu
+category: Webex
+value: 100
+flag: bcactf{r3m3mber_towo_sanitize_sql_quwueries_24jhjfssdf}
+description: |-
+  Can you log in?
+
+  [http://96.126.107.246:20013/1](http://96.126.107.246:20013/1)
+hints:
+  - What happens if you put in a single quote?
+  - Which payloads might you need to inject? Try using the ones we discussed in class.
+authors: anli
+visible: false
