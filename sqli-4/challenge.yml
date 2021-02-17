@@ -1,0 +1,15 @@
+name: Guess The Flag
+category: Webex
+value: 300
+flag: bcactf{h0p3_you_d1dnt_d0_this_manually_shfw487234}
+description: |-
+  Check out my nice Guess-The-Flag game! No blind injection attacks here!
+
+  The flag consists solely of lowercase letters, numbers, and the characters `{`, `}`, and `_`.
+
+  [http://96.126.107.246:20014/4](http://96.126.107.246:20014/4)
+hints:
+  - What did you do for uwu 3?
+  - You might need to script a solution.
+authors: anli
+visible: false
