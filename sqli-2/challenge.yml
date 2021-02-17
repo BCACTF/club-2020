@@ -10,6 +10,6 @@ hints:
   - How might the site be detecting your SQL injections?
   - Which symbols or phrases is it disallowing? How might you be able to tell?
   - What are some other symbols you could use?
-  - [Head here for some inspiration.](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection#authentication-bypass)
+  - "[Head here for some inspiration.](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection#authentication-bypass)"
 authors: anli
 visible: false
