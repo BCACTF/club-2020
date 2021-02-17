@@ -9,7 +9,7 @@ hints:
  - That `e` value looks kinda small...
  - These are some really big numbers... Make sure you're using functions that don't lose any precision!
 files:
- - ./ciphertext.txt
+ - ./weak-cbc-source.py
 authors:
   - picoCTF 2018
 visible: false
