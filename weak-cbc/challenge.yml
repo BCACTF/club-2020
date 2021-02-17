@@ -8,13 +8,16 @@ description: |-
   The source code doesn't *exactly* match the given file, but it's basically the same.
   I'm not gonna tell you where the flag is, either; try to get as much information as you can and eventually you should find it!
   If you need a hint, the first hint will tell you where the flag is.
+
+  `nc 96.126.107.246 13489`
 hints:
   - The flag is in the **keys**, so try to figure them out!
   - Notice that the keys are also being used as **Initialization Vectors**...
   - How can you figure out the IV? Should you use encryption, decryption, or both?
   - Draw out the diagram for CBC encryptors and decryptors...
 files:
-  - ./weak-cbc-source.py
+  - name: ./crypto/weak-cbc.py
+    display: weak-cbc.py
 authors:
   - SwampCTF, unknown year
   - Adapted by Erez IM

@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  crypto:
+    build: crypto
+    ports:
+      - 13489:9999
