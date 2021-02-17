@@ -1,0 +1,16 @@
+name: Hex-Noise
+category: Forensics
+value: 150
+flag: bcactf{h3x_1n_4ud10}
+description: |-
+  I intercepted this audio file. Can you find the message for me?
+hints:
+  - Put the message inside bcactf{put message here}
+  - The message is in ascii
+files:
+  # Can also rename file for participants
+  - name: ./hexAudio.wav
+    display: audio.wav
+authors:
+  - Ari Kamat
+visible: true

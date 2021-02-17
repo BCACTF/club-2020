@@ -1,0 +1,15 @@
+name: Calculator
+category: Webex
+value: 150
+flag: bcactf{calculat3d_wur092u49hj}
+description: |-
+  Check out m y very secure calculator!
+
+  [http://96.126.107.246:20013](http://96.126.107.246:20013)
+hints:
+  - You've heard of XSS, but what about RCE?
+  - What is that `safeEval` function doing there?
+files:
+  - ./server/index.js
+authors: anli
+visible: false

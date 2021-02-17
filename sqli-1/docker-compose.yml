@@ -1,0 +1,9 @@
+version: "2.0"
+services:
+  web:
+    build: ./server
+    environment:
+      SQLI1_FLAG: "bcactf{r3m3mber_towo_sanitize_sql_quwueries_24jhjfssdf}"
+      SQLI2_FLAG: "bcactf{w0w_what_a_sqli_n1ce_d3tector_saidhfi4y23}"
+    ports:
+      - 20014:1337

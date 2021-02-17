@@ -1,0 +1,10 @@
+name: "Dynamic Binary Rev: Class Problems"
+category: Binary Exploitation
+value: 0
+flag: aaaagfjhfdgjkfdsfd
+description: |-
+  Binary reversing class files.
+files:
+  - ./nums.c
+authors:
+  - Edward Feng

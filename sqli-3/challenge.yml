@@ -1,0 +1,17 @@
+name: uwu 3
+category: Webex
+value: 200
+flag: bcactf{775562968353}
+description: |-
+  Time for a slightly different problem! Can you leak the PIN?
+
+  Flag format is as follows: bcactf{*(12 digit pin)*}
+
+  *Note that the column for the PIN is `pin`, not `password`.*
+
+  [http://96.126.107.246:20014/3](http://96.126.107.246:20014/3)
+hints:
+  - What information does the site return? How can you use that to leak the PIN, one part at a time?
+  - What does `LIKE` do? How did we use it in the SQLi lecture?
+authors: anli
+visible: false

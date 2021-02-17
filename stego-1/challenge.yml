@@ -1,0 +1,16 @@
+name: Stego 1
+category: Forensics
+value: 150
+flag: bcactf{4h_y35_qrc0d35_1n51d3_4ud10}
+description: |-
+  I feel like there is more behind this audio than this annoying noise. Is there?
+hints:
+  - There are multiple steps to this problem
+  - What is sonic visualizer known for
+files:
+  # Can also rename file for participants
+  - name: ./stego-1.wav
+    display: audio.wav
+authors:
+  - Ari Kamat
+visible: true

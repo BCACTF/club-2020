@@ -1,14 +1,17 @@
 name: It's About Time
 category: Reversing
 value: 0
-flag: camp{EE-E-EEEEEEE-yt-link-S6CtlvmXA-E}
+flag:
+  file: ./rev/E
 description: |-
   After the HEEEEEEPA filter was bypassed, the school fell into disarray. And so did the fabric of space, I think, or something. So what if we use time instead? What's the opposite of random? E.
+
+  `nc 96.126.107.246 46055`
 hints:
   - Make sure you solve sPRuNG first!
 files:
-  # File name relative to problem directory
-  - ./sprung-2.c
+  - name: ./rev/src.c
+    display: sprung-2.c
 authors:
   - Erez Israeli Miller
-visible: false
+

@@ -1,0 +1,15 @@
+name: Dynamic Binary Rev
+category: Binary Exploitation
+value: 200
+flag: bcactf{5k1p_7he_h4rD_w0rk_Us3_dYn4miC_an4ly5is}
+description: |-
+  This looks like an annoying binary to reverse.
+  Can you find the flag another way?
+hints:
+  - "\"Source code is not sacred.\" You don't have the source, but you can still run the program."
+  - You're asked to put in a flag. Where does the program check your input against something else?
+files:
+  - name: ./chall
+    display: binrev2
+authors:
+  - Edward Feng

@@ -1,0 +1,6 @@
+version: "2.0"
+services:
+  rev:
+    build: rev
+    ports:
+      - 46055:9999
