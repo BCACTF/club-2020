@@ -74,9 +74,9 @@ app.use(async ctx => {
             const tokenDetails = verifyAuthToken(ctx.cookies.get("sh3_flag"));
             console.log(tokenDetails);
 
-            if (tokenDetails.username !== "anli") {
+            if (tokenDetails.username !== "admin") {
                 ctx.status = 403;
-                message = "You must be admin to turn off anli's lights.";
+                message = "You must be admin to obtain the flag.";
             } else {
                 message = content;
             }
