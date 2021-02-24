@@ -54,7 +54,7 @@ app.use(async ctx => {
             } catch (e) {
                 console.log(e);
                 ctx.status = 500;
-                data.alert = {color: "danger", content: "An internal server error occurred. Please contact CS Camp staff."};
+                data.alert = {color: "danger", content: "An internal server error occurred. Please contact CTF Club staff."};
             }
         }
 
