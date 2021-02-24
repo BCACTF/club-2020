@@ -1,6 +1,6 @@
 FROM tiangolo/uwsgi-nginx-flask:python3.8-alpine
 
-RUN apk add --update --no-cache gcc musl-dev git libressl-dev libffi-dev
+RUN apk add --update --no-cache gcc musl-dev git libressl-dev libffi-dev py-cryptography
 
 RUN pip install --upgrade pip
 COPY requirements.txt /
