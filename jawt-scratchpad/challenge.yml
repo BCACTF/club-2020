@@ -1,0 +1,16 @@
+name: JaWT Scratchpad
+category: Webex
+value: 200
+flag: picoCTF{jawt_was_just_what_you_thought_1ca14548}
+description: |-
+  From PicoCTF 2019:
+  
+  > Check the admin scratchpad!
+
+  [https://jupiter.challenges.picoctf.org/problem/61864/#](https://jupiter.challenges.picoctf.org/problem/61864/#)
+hints:
+  - What is that cookie?
+  - Have you heard of JWT?
+  - It's HS256. You might have to brute force your way through this one.
+authors: picoCTF 2019
+visible: false
