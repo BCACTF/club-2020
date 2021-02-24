@@ -11,7 +11,9 @@ description: |-
 
   [http://96.126.107.246:22240](http://96.126.107.246:22240)
 hints:
-  - What happens if you put in a single quote?
-  - Which payloads might you need to inject? Try using the ones we discussed in the SQLi lecture.
+  - What's that public key doing?
+  - You don't have the private key, so you can't generate a token... or can you?
+  - What else can go in that `alg` field?
+  - Head to [https://jwt.io](https://jwt.io) for an interactive token inspector, or use a Python library such as [pyjwt](https://pyjwt.readthedocs.io/en/latest/).
 authors: HSCTF 7
 visible: false
