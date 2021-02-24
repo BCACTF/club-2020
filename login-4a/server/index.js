@@ -48,7 +48,7 @@ app.use(async ctx => {
         if (ctx.method === "POST") {
             try {
                 ctx.status = 303;
-                ctx.cookies.set("sh3_flag", await promisify(makeAuthToken)(), {overwrite: true});
+                ctx.cookies.set("login4a_token", await promisify(makeAuthToken)(), {overwrite: true});
                 ctx.redirect("/flag");
                 return;
             } catch (e) {
@@ -64,14 +64,14 @@ app.use(async ctx => {
     } else if (ctx.path === "/flag" && ctx.method === "GET") {
 
         let message;
-        if (!ctx.cookies.get("sh3_flag")) {
+        if (!ctx.cookies.get("login4a_token")) {
             ctx.status = 303;
             ctx.redirect("/");
             return;
         }
         
         try {
-            const tokenDetails = verifyAuthToken(ctx.cookies.get("sh3_flag"));
+            const tokenDetails = verifyAuthToken(ctx.cookies.get("login4a_token"));
             console.log(tokenDetails);
 
             if (tokenDetails.username !== "admin") {
