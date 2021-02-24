@@ -32,7 +32,7 @@ def index():
 			admin = False
 		else:
 			logged_in = True
-			admin = jwt.decode(auth, PUBLIC_KEY)["auth"] == "admin"
+			admin = jwt.decode(auth, PUBLIC_KEY, algorithms=["HS256", "RS256", "HS384", "HS512"])["auth"] == "admin"
 		resp = make_response(
 			render_template("index.html", logged_in=logged_in, admin=admin, flag=FLAG)
 		)
