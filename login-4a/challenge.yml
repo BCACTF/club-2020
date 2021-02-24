@@ -1,11 +1,9 @@
 name: Login 4 Small Brain Edition
 category: Webex
 value: 200
-flag: bcactf{775562968353}
+flag: bcactf{g3neric_crypt0_l3cture_2i3y4y9u23ujhsdf}
 description: |-
-  its like login 4 but with small brain™
-
-  we use jwt again but we use it with small brain™
+  we use jwt but we use it with small brain™
 
   we're too lazy to set up a username/password field, just log in™
 
