@@ -16,5 +16,6 @@ hints:
   - What else can go in that `alg` field?
   - Head to [https://jwt.io](https://jwt.io) for an interactive token inspector, or use a Python library such as [pyjwt](https://pyjwt.readthedocs.io/en/latest/).
 authors:
-  - HSCTF 7 (with slight modifications by anli)
+  - HSCTF 7
+  - (slight modifications by anli)
 visible: false
