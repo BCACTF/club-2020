@@ -1,0 +1,9 @@
+version: "2.0"
+services:
+  web:
+    build: ./server
+    environment:
+      JWT_SECRET: "wr;o2iu3goi1u23r9r8wyufsffdfohuaskfjvhsfkjvgqew8u1393842yweifhsdjflxjbvasliyq9452304572pi46hsdkffjgbv,kfb"
+      FLAG: "As you turn off my lights, a piece of paper slides under the door of my room: bcactf{g3neric_crypt0_l3cture_2i3y4y9u23ujhsdf}"
+    ports:
+      - 22241:1337
