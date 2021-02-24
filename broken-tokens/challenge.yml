@@ -1,0 +1,17 @@
+name: Broken Tokens (HSCTF 7)
+category: Webex
+value: 250
+flag: flag{1n53cur3_tok3n5_3458fugoishfkjxcnv_kbjfdnsk}
+description: |-
+  From HSCTF 7:
+  
+  > I made a login page, is it really secure?
+  > 
+  > Note: If you receive an "Internal Server Error" (HTTP Status Code 500), that means that your cookie is incorrect.
+
+  [http://96.126.107.246:22240](http://96.126.107.246:22240)
+hints:
+  - What happens if you put in a single quote?
+  - Which payloads might you need to inject? Try using the ones we discussed in the SQLi lecture.
+authors: HSCTF 7
+visible: false
