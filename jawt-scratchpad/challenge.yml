@@ -12,5 +12,6 @@ hints:
   - What is that cookie?
   - Have you heard of JWT?
   - It's HS256. You might have to brute force your way through this one.
-authors: picoCTF 2019
+authors:
+  - picoCTF 2019
 visible: false
