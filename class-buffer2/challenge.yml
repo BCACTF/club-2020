@@ -1,0 +1,13 @@
+name: "Stack Smashing: Class Problems"
+category: Binary Exploitation
+value: 0
+flag: aaaagfjhfdgjkfdsfd
+description: |-
+  Follow along with the "Smashing the Stack" lecture.
+
+  Final exploit running at `nc 96.126.107.246 12804`
+files:
+  - buf.c
+  - hello.c
+authors:
+  - Edward Feng

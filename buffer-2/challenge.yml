@@ -1,0 +1,24 @@
+name: ROPpin' Around the Buffet
+category: Binary Exploitation
+value: 300
+flag:
+  file: ./pwn/flag.txt
+description: |-
+  After reports of diners ordering shells from the secret menu,
+  the Overflow Buffet decided to remove it.
+  Now, you'll need to try harder to get the seafood you crave.
+
+  `nc 96.126.107.246 19731`
+hints:
+  - If you're completely lost, watch the "Smashing the Stack" lecture.
+  - You can't jump directly to `win`, you'd need to do something else first.
+  - When you redirect execution to another function, that's still a function, and you still control the stack.
+  - Look up "ROP"s.
+files:
+  - name: ./pwn/src.c
+    display: buffer2.c
+  - container: pwn
+    name: /home/ctf/buffer2
+    display: buffer2
+authors:
+  - Edward Feng
