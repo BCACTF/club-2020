@@ -9,5 +9,8 @@ description: |-
 files:
   - buf.c
   - hello.c
+  - container: pwn
+    name: /home/ctf/buf
+    display: buf
 authors:
   - Edward Feng
