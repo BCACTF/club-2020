@@ -1,0 +1,15 @@
+name: Shark On Wire 2
+category: Forensics
+value: 0
+flag: picoCTF{p1LLf3r3d_data_v1a_st3g0}
+description: |-
+  We found another packet capture. Recover the flag that was pilfered from the network. The format is picoCTF{}
+hints:
+  - Where can information be stored?
+  - What stays the same, and what changes?
+files:
+  - ./capture2.pcap
+authors:
+  - picoCTF 2019
+  - presented by micpap25
+visible: true

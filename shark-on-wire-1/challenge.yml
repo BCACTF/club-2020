@@ -1,0 +1,15 @@
+name: Shark On Wire 1
+category: Forensics
+value: 0
+flag: picoCTF{StaT31355_636f6e6e}
+description: |-
+  We found this packet capture. Recover the flag. The format is picoCTF{}
+hints:
+  - What protocols are interesting?
+  - What are streams?
+files:
+  - ./capture1.pcap
+authors:
+  - picoCTF 2019
+  - presented by micpap25
+visible: true
