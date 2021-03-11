@@ -1,0 +1,10 @@
+name: "Arbitrary Code Execution: Class Problems"
+category: Binary Exploitation
+value: 0
+flag: aaaagfjhfdgjkfdsfd
+description: |-
+  Follow along with the "Arbitrary Code Execution" lecture.
+files:
+  - shell.c
+authors:
+  - Edward Feng
